@@ -1,0 +1,25 @@
+{
+  "StudentDetails": [
+    {
+      "id": "a843",
+      "Client name": "keerthana",
+      "project name": "QA",
+      "budget": "35000",
+      "expected duration": "3years"
+    },
+    {
+      "id": "a692",
+      "Client name": "Abhinaya",
+      "project name": "QA",
+      "budget": "45000",
+      "expected duration": "4years"
+    },
+    {
+      "id": "7d18",
+      "Client name": "Rajesh",
+      "project name": "QA",
+      "budget": "25000",
+      "expected duration": "2years"
+    }
+  ]
+}
