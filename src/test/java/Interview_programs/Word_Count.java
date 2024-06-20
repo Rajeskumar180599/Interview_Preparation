@@ -18,6 +18,7 @@ public class Word_Count {
             // Increment count for existing word or add new word with count 1
             wordCountMap.put(word, wordCountMap.getOrDefault(word, 0) + 1);
         }
+        
 
         // Print word counts
         for (Map.Entry<String, Integer> entry : wordCountMap.entrySet()) {
