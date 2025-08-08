@@ -1,20 +1,23 @@
-import java.util.HashMap;
-import java.util.Map;
-
 public class testing_potion {
 
     public static void main(String[] args) {
 
-        int target = 24;
+        String input = "ANATA";
+        StringBuilder output = new StringBuilder();
 
-        System.out.println("Pairs of integers that multiply to " + target + ":");
-        for (int i = 1; i <= 100; i++) {
-            if (target % i == 0) {
-                int pair = target / i;
-                System.out.println(i + " * " + pair + " = " + target);
-                System.out.println(-i + " * " + -pair + " = " + target);
+        for (int i = 0; i < input.length(); i++) {
+            char ch = input.charAt(i);
+            if (ch == 'A') {
+                // Append (i + 1) number of '#'
+                for (int j = 0; j < i + 1; j++) {
+                    output.append('#');
+                }
+            } else {
+                output.append(ch);
             }
         }
+
+        System.out.println("Output: " + output.toString());
     }
 }
 
